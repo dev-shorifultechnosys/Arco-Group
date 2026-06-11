@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="Insurance claim documentation fallback image">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f6f8fc"/><stop offset="0.52" stop-color="#ccd9ef"/><stop offset="1" stop-color="#102a5f"/></linearGradient>
+    <radialGradient id="glow" cx="70%" cy="20%" r="65%"><stop offset="0" stop-color="#ffffff" stop-opacity=".42"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="25" flood-color="#071633" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#g)"/>
+  <rect width="1400" height="900" fill="url(#glow)"/>
+  <path d="M0 725 C250 660 390 775 620 700 C845 628 980 688 1400 590 L1400 900 L0 900 Z" fill="#071633" opacity=".45"/>
+  <path d="M0 760 C240 720 390 820 620 755 C900 675 1050 735 1400 655 L1400 900 L0 900 Z" fill="#ffffff" opacity=".08"/>
+  
+  <g filter="url(#shadow)">
+    <rect x="320" y="180" width="520" height="590" rx="32" fill="#fff" opacity=".93"/>
+    <path d="M420 280 h300 M420 360 h300 M420 440 h220 M420 520 h300" stroke="#173b78" stroke-width="28" stroke-linecap="round" opacity=".55"/>
+    <circle cx="785" cy="635" r="145" fill="#1f5abb" opacity=".95"/>
+    <path d="M715 635 l45 45 l95-115" fill="none" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M245 585 l160-210 l110 160 l95-115 l180 255" fill="none" stroke="#f6c45e" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+  </g>
+  <path d="M1080 105 h230 v48 h-230z" rx="24" fill="#fff" opacity=".1"/>
+  <path d="M1108 130 h140" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".25"/>
+</svg>

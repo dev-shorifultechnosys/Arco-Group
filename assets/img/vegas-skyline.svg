@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 900" preserveAspectRatio="none" role="img" aria-label="Abstract Las Vegas skyline">
+<defs>
+<linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#071633"/><stop offset=".55" stop-color="#123f93"/><stop offset="1" stop-color="#2b68d8"/></linearGradient>
+<radialGradient id="sun" cx="72%" cy="22%" r="48%"><stop offset="0" stop-color="#f6c45e" stop-opacity=".40"/><stop offset=".35" stop-color="#ffffff" stop-opacity=".18"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<linearGradient id="glass" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity=".02"/></linearGradient>
+</defs>
+<rect width="1800" height="900" fill="url(#sky)"/>
+<rect width="1800" height="900" fill="url(#sun)"/>
+<path d="M0 640 C210 560 410 635 625 555 C780 497 930 540 1120 480 C1380 398 1550 495 1800 410 L1800 900 L0 900 Z" fill="#071633" opacity=".32"/>
+<path d="M0 700 C220 630 370 710 610 650 C850 590 950 650 1180 570 C1400 495 1600 570 1800 490 L1800 900 L0 900Z" fill="#06132e" opacity=".5"/>
+<g opacity=".80">
+<rect x="230" y="425" width="120" height="310" rx="8" fill="url(#glass)"/>
+<rect x="380" y="335" width="150" height="400" rx="8" fill="url(#glass)"/>
+<rect x="565" y="250" width="190" height="485" rx="10" fill="url(#glass)"/>
+<rect x="795" y="365" width="142" height="370" rx="8" fill="url(#glass)"/>
+<rect x="980" y="285" width="170" height="450" rx="10" fill="url(#glass)"/>
+<rect x="1195" y="390" width="150" height="345" rx="8" fill="url(#glass)"/>
+<rect x="1390" y="315" width="190" height="420" rx="9" fill="url(#glass)"/>
+<path d="M520 735 V185 l44 52 v498" fill="#fff" opacity=".16"/>
+<path d="M535 185 h55" stroke="#fff" stroke-width="8" opacity=".3"/>
+<path d="M1485 735 V210" stroke="#fff" stroke-width="7" opacity=".25"/>
+<circle cx="1485" cy="185" r="21" fill="#f6c45e" opacity=".75"/>
+</g>
+<g opacity=".34" stroke="#fff" stroke-width="8">
+<path d="M260 465 h55 M260 520 h55 M260 575 h55 M410 390 h75 M410 455 h75 M410 520 h75 M600 315 h100 M600 385 h100 M600 455 h100 M1020 350 h90 M1020 425 h90 M1020 500 h90 M1430 385 h110 M1430 455 h110 M1430 525 h110"/>
+</g>
+<path d="M0 770 h1800" stroke="#ffffff" stroke-opacity=".15" stroke-width="2"/>
+<path d="M0 805 h1800" stroke="#f6c45e" stroke-opacity=".20" stroke-width="3"/>
+</svg>
